@@ -322,7 +322,7 @@ function showResult() {
     </button>
   `;
 }
-
+// Функция первого экрана
 function first() {
   myPoints = 0;
   currentIndex = 0;
