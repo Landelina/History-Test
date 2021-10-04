@@ -336,9 +336,10 @@ myTest.innerHTML = `<img class="result-image" src="src/pictures/main1.jpg"/>
       Начать тест
     </button>
   `;
-  
+
 first();
 
+//Функция подбора окончения числительных
 function num_word(value, words) {
   value = Math.abs(value) % 100;
   var num = value % 10;
